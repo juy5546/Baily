@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecodeAFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#EAEEFA"
+        android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/leftButton"
+        android:layout_width="05dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:background="#EAEEFA"
+        android:src="@drawable/left" />
+
+    <ImageButton
+        android:id="@+id/nursingButton"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="#EAEEFA"
+        android:src="@drawable/nursing" />
+
+    <ImageButton
+        android:id="@+id/babyfoodButton"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="#EAEEFA"
+        android:src="@drawable/babyfood" />
+
+    <ImageButton
+        android:id="@+id/sleepButton"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="#EAEEFA"
+        android:src="@drawable/sleep" />
+
+    <ImageButton
+        android:id="@+id/powderedmilkButton"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="#EAEEFA"
+        android:src="@drawable/powderedmilk" />
+
+    <ImageButton
+        android:id="@+id/bowelButton"
+        android:layout_width="35dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="#EAEEFA"
+        android:src="@drawable/bowel" />
+
+    <ImageButton
+        android:id="@+id/rightButton"
+        android:layout_width="5dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:background="#EAEEFA"
+        android:src="@drawable/right" />
+</LinearLayout>
+
+</FrameLayout>

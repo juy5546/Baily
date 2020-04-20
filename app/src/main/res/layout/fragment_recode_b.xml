@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RecodeBFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="#EAEEFA"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/leftButton"
+            android:layout_width="05dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#EAEEFA"
+            android:src="@drawable/left" />
+
+        <ImageButton
+            android:id="@+id/dosageButton"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="#EAEEFA"
+            android:src="@drawable/dosage" />
+
+        <ImageButton
+            android:id="@+id/temperatureButton"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="#EAEEFA"
+            android:src="@drawable/temperature" />
+
+        <ImageButton
+            android:id="@+id/bathButton"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="#EAEEFA"
+            android:src="@drawable/bath" />
+
+        <ImageButton
+            android:id="@+id/healthButton"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="#EAEEFA"
+            android:src="@drawable/health" />
+
+        <ImageButton
+            android:id="@+id/playButton"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="#EAEEFA"
+            android:src="@drawable/play" />
+
+        <ImageButton
+            android:id="@+id/rightButton"
+            android:layout_width="5dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="#EAEEFA"
+            android:src="@drawable/right" />
+    </LinearLayout>
+</FrameLayout>
